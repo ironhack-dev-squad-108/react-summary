@@ -1082,7 +1082,7 @@ Finally, we can have some link to this route. Example:
 let countries = ['France','Germany','Spain','Netherlands']
 return (
   <div>
-    {countries.map(c => <Link key={c} to={c}>{c}</Link>)}
+    {countries.map(c => <Link key={c} to={"/country/"+c}>{c}</Link>)}
   </div>
 )
 ```
