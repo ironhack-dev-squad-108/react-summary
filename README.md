@@ -1153,7 +1153,7 @@ class AddPerson extends React.Component {
     const user = {
       name: this.state.name
     };
-    axios.post(`https://jsonplaceholder.typicode.com/users`, { user })
+    axios.post(`https://jsonplaceholder.typicode.com/users`, user)
       .then(res => {
         console.log(res.data)
         // Redirect to the Home page
