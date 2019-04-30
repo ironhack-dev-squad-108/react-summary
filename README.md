@@ -37,11 +37,8 @@ If you want something very quick to use, very close to what you can have with VS
 Or you can create a React application with your terminal:
 
 ```sh
-# Only the first time 
-$ npm install -g create-react-app
-
 # To create a new React app
-$ create-react-app my-app
+$ npx create-react-app my-app
 $ cd my-app
 
 # To start the React app
