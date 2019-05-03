@@ -423,6 +423,8 @@ These methods are called when there is an error during rendering, in a lifecycle
 
 Copy/paste this example, open it in Chrome with an opened console and see what happens when you type a name.
 
+You can also go see the example [here](https://codesandbox.io/s/6w2v6xrp7w).
+
 ```js
 // index.js
 class DisplayInfo extends React.Component{
